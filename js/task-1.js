@@ -1,3 +1,4 @@
+'use strict';
 function makeTransaction(quantity, pricePerDriod) {
   const orderPrice = quantity * pricePerDriod;
   return `You ordered ${quantity} droids worth ${orderPrice} credits!`;
